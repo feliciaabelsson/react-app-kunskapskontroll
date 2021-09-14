@@ -1,0 +1,93 @@
+/* Form.js */
+
+
+.form-box {
+    width: 100%;
+    text-align: left;
+}
+
+.input-form {
+    padding: .8rem 0 .8rem;
+    width: 100%;
+}
+
+.checked {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: .5rem 3rem .5rem 3rem;
+}
+
+.checked p {
+    font-size: .8rem;
+}
+
+
+/* Selection.js */
+
+.names-form, .checkbox-form {
+    padding: .5rem 3rem .5rem 3rem;
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.selection-form {
+    width: 100%;
+    display: flex;
+}
+
+
+.selection-comp {
+    display: flex;
+    padding: 0 3rem;
+    gap: 1rem;
+}
+
+.selection-box {
+    text-align: left;
+    width: 100%;
+}
+
+.selection-box p, .form-box p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.selection {
+    padding: .8rem;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+
+
+/* Checkbox.js */
+
+.checkbox-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: .5rem;
+}
+
+.checkbox {
+    display: flex;
+    gap: .5rem;
+}
+
+/* Submit.js */
+.button-container {
+    padding: 2rem 3rem 3rem 3rem;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+}
